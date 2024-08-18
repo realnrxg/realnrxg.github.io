@@ -1,3 +1,4 @@
+/* Basic reset and body styling */
 body, html {
     margin: 0;
     padding: 0;
@@ -31,21 +32,22 @@ body, html {
     animation: lighting 6s linear infinite;
 }
 
-/* Keyframes for the lighting animation */
-@keyframes lighting {
-    0% {
-        transform: translate(0, 0) rotate(0deg);
-    }
-    100% {
-        transform: translate(50%, 50%) rotate(360deg);
-    }
-}
-
 /* Centered rounded rectangle styling */
 .rounded-rectangle {
-    width: 300px;
-    height: 150px;
-    background-color: #ffffff;
-    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.3); /* Transparent gray color */
+    border-radius: 25px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text inside the rectangle */
+.rounded-rectangle p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
 }
