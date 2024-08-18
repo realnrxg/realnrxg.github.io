@@ -42,11 +42,11 @@ body, html {
     }
 }
 
-/* Centered circle styling */
-.circle {
-    width: 150px;
+/* Centered rounded rectangle styling */
+.rounded-rectangle {
+    width: 300px;
     height: 150px;
     background-color: #ffffff;
-    border-radius: 50%;
+    border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
